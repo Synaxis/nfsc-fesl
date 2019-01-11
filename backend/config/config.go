@@ -16,9 +16,9 @@ type cfg struct {
 	LogLevel string `envconfig:"LOG_LEVEL" default:"INFO"`
 
 	GameSpyIP      string `envconfig:"GAMESPY_IP" default:"127.0.0.1"`
-	FeslClientPort int    `envconfig:"FESL_CLIENT_PORT" default:"18270"`
+	FeslClientPort int    `envconfig:"FESL_CLIENT_PORT" default:"18210"`
 	FeslServerPort int    `envconfig:"FESL_SERVER_PORT" default:"18051"`
-	ThtrClientPort int    `envconfig:"THEATER_CLIENT_PORT" default:"18210"`
+	ThtrClientPort int    `envconfig:"THEATER_CLIENT_PORT" default:"18215"`
 	ThtrServerPort int    `envconfig:"THEATER_SERVER_PORT" default:"18056"`
 
 	// An address for clients where theater can be found.
