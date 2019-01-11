@@ -1,0 +1,5 @@
+- [ done] Change `user_id` to `user_id`
+- [ done] Change `heroID` to `heroID`
+
+- [] (high priority) refactor updatestats
+- [] (low priority) move functions to same go files (over engineering)

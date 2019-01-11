@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+app
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Delve debugger
+debug
+debug.test
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Custom
+_data/lvl.db
+.env
+vendor
+*.exe
+/fesl-backend
+/heroes-api
+.lnk
+.old
+*exe~ File
+*UniServer
+*shortcut
